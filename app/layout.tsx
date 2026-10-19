@@ -16,6 +16,16 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Dapur Mamak Management System | Bakery Private OS',
   description: 'Sistem pencatatan produksi resep, stok bahan baku, dan pembukuan keuangan toko roti Dapur Mamak.',
+  icons: {
+    icon: [
+      { url: '/logo.jpeg', type: 'image/jpeg' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    shortcut: ['/logo.jpeg'],
+    apple: [
+      { url: '/logo.jpeg' },
+    ],
+  },
 };
 
 export default function RootLayout({
